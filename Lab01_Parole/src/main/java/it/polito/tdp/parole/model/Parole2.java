@@ -2,13 +2,13 @@ package it.polito.tdp.parole.model;
 
 import java.util.*;
 
-public class Parole {
+public class Parole2 {
 		
-	LinkedList<String> parole;
+	ArrayList<String> parole;
 	
-	public Parole() {
+	public Parole2() {
 
-		parole = new LinkedList<>();
+		parole = new ArrayList<>();
 	}
 	
 	public void addParola(String p) {
